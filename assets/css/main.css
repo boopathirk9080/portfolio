@@ -708,12 +708,12 @@ section,
 
 .skills .progress-bar-wrap {
   background: color-mix(in srgb, var(--default-color), transparent 90%);
-  height: 10px;
+  height: 15px;
 }
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 15px;
   transition: 0.9s;
   background-color: var(--accent-color);
 }
@@ -781,10 +781,12 @@ section,
 # Portfolio Section
 --------------------------------------------------------------*/
 .portfolio .portfolio-filters {
-  padding: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
+  font-size: 10px
 }
 
 .portfolio .portfolio-filters li {
@@ -799,17 +801,22 @@ section,
   margin-bottom: 10px;
   transition: all 0.3s ease-in-out;
 }
+   .bg-111{
 
+    background: #00000037;
+    margin-bottom: 30px
+
+}
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
-  color: white;
+  color: rgb(7, 7, 7);
   padding-left: 17px ;
   padding-right: 17px;
   padding-top: 12px;
   padding-bottom: 12px;
   
   border-radius: 18px;
-  background: #041c4d82;
+  background: #be567b;
 }
 
 .portfolio .portfolio-filters li:first-child {
